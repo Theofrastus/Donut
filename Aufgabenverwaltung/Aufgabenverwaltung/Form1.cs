@@ -74,6 +74,12 @@ namespace Aufgabenverwaltung
             Form3 abfrage = new Form3(this);
             abfrage.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MitgliedHinzufuegen a = new MitgliedHinzufuegen();
+            a.Show();
+        }
         
     }
 }
